@@ -20,7 +20,7 @@ public class main {
                 genetated.add(num);
             }
         }
-        
+        ////생성된 목록임
     return result;
     }
     boolen contains(Set<Integer) generated, int num) {
