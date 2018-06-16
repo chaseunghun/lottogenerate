@@ -1,7 +1,8 @@
-package project;
+//package project;
 import java.util.Random;
 import java.util.Arrays;
-public class Main {
+
+public class LottoGenerator {
     private Random random = new Random(System.nanoTime());
     
     public int[] generate() {
@@ -14,9 +15,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] = result = new main().generate();
+        int[] = result = new LottoGenerator().generate();
         System.out.println("Array.toString(result));
-    }
     }
 
 }
